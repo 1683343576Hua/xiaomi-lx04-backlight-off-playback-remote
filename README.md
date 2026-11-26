@@ -114,7 +114,7 @@ adb -s <设备IP>:5555 shell ...   （发给音箱）
 
 ### 前置条件
 
-1. 设备已开启**网络 ADB**（小爱音箱可用 Sky ADB 等工具开启，或用 USB 调试后 `adb tcpip 5555`）。
+1. 设备已开启**网络 ADB**（音箱先去设置打开ADB调试或用 USB 调试后 `adb tcpip 5555` tips:后续使用推荐 Sky ADB 工具可以更好的操作使用这个音响）。
 2. 宿主机（Linux，能跑 Docker 和 adb）与设备同一局域网。
 
 ### 第 1 步：安装 adb-bridge
